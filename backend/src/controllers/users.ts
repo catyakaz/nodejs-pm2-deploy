@@ -61,6 +61,7 @@ const getUser = (req: Request, res: Response, next: NextFunction) => {
 };
 
 const getCurrentUser = (req: Request, res: Response, next: NextFunction) => {
+  console.log('res', res)
   getUserData(req.user._id, res, next);
 };
 
