@@ -24,7 +24,7 @@ module.exports = {
       ref: DEPLOY_REF,
       repo: DEPLOY_REPO,
       path: DEPLOY_PATH,
-      'post-deploy': 'export PATH=$PATH:~/.nvm/versions/node/v18.20.3/bin/ && npm i && npm run build',
+      'post-deploy': 'export PATH=$PATH:~/.nvm/versions/node/v18.20.3/bin/ && npm i && npm run build'
     },
   },
 };
