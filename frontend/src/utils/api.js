@@ -139,6 +139,6 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('http://api.mestonodejs.nomorepartiesco.ru');
+  const api = new Api('https://api.mestonodejs.nomorepartiesco.ru');
 
   export default api;
